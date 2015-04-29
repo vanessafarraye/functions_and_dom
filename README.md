@@ -54,7 +54,7 @@ Go to [generalassemb.ly](https://generalassemb.ly) and try the following exercis
 
 * Grab the `body` from the page using, `document.querySelector`. and chnage the `opacity` to `.5`.
 * Grab all the `img` tags from the page. Iterate through each image and change the source to `http://www.maine-coon-cat-nation.com/image-files/girl-kitten-names.jpg`.
-  * Create a `kittenPaint` function that does the above to a page.Save it as a snippet in your developer console. Go to yahoo and run it there.
+  * Create a `kittenPaint` function for your code above .Save it as a snippet in your developer console. Go to yahoo and run it there.
 * Using `document.querySelectorAll("*")` to grab all elements on the page, iterate through each `element` in the list using a `for` loop. Use `element.style.backgroundImage = "url(http://www.maine-coon-cat-nation.com/image-files/girl-kitten-names.jpg)"` to change every element to have a kitten background image.
   * Create a `kittenBomb` function with the above backgroundImage changing feature and save it to your `sources` under snippets. Run it on your favorite site.
 * Select the `body` from the page. When it is clicked change its style using the following, `body.style.transform = "rotateZ(60deg)";`.
