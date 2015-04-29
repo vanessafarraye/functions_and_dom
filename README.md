@@ -57,46 +57,7 @@ Go to [generalassemb.ly](https://generalassemb.ly) and try the following exercis
   * Create a `kittenPaint` function for your code above .Save it as a snippet in your developer console. Go to yahoo and run it there.
 * Using `document.querySelectorAll("*")` to grab all elements on the page, iterate through each `element` in the list using a `for` loop. Use `element.style.backgroundImage = "url(http://www.maine-coon-cat-nation.com/image-files/girl-kitten-names.jpg)"` to change every element to have a kitten background image.
   * Create a `kittenBomb` function with the above backgroundImage changing feature and save it to your `sources` under snippets. Run it on your favorite site.
-* Select the `body` from the page. When it is clicked change its style using the following, `body.style.transform = "rotateZ(60deg)";`.
-* Using the `style` rotation in JS from above, grab every `img` off the page, and create a `click` event on the `body` that iterates through all images and rotates them. In less words, when the page is clicked rotate all images on the pages.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Select the `body` from the page. When the body is clicked, change its style using the following, `body.style.transform = "rotateZ(60deg)";`.
+* Using the element transform from above, grab every `img` off the page, and create a `click` event on the `body` that iterates through all images and rotates them. In other words, when the page is clicked rotate all images on the pages.
 
 
