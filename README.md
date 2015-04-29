@@ -1,5 +1,6 @@
 # Functions and The DOM
-## Exercises In The Browser
+
+Try the following exercises in the browser.
 
 
 ## Practice With Functions
