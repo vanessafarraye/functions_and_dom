@@ -8,41 +8,52 @@ Try the following exercises in the browser.
 * Write a function to swap to values at two different indicies in an array.
 
   ```
-  var swap = function (arr, indexOne, indexTwo) {
-    // swap values 
+var myArray = [5, 4, 3]
+var swap = function (myArray, indexA, indexB) { 
+  	var y = myArray[indexA];
+  	myArray[indexA] = myArray[indexB]
+  	myArray[indexB] = y;
+  	return myArray;
+};
 
-    return arr;
-  };
   ```
 
 * Write a function to generate a random number in a specified range.
 
   ```
-  var getRand = function (low, high) {
-    // your work
-
-    return randNum;
+var getRand = function (low, high) {
+	return Math.floor(Math.random() * (high - low + 1)) + low;
   };
+  
   ```
 
 * Write a function to create a specified number of random numbers from `1` to `100` in an array.
 
   ```
-  var randArr = function (size) {
-    // your work;
-
-    return arr; 
+var randArr = function (size) {
+	var arr = [];
+	for( var i = 0; i < size; i++) {
+	arr.push(Math.floor(Math.random() * 10 + 1));
+  	}
+  return arr; 
   }
+  
   ```
 
 * Write a function to find the maximum number in an array.
 
   ```
-  var getMax = function (arr) {
-    // your work
-    
-    return max;
-  }
+var arr = [1, 9, 8, 7];
+var getMax = function (arr) {
+	var maxNumber = arr[0];
+	for(i = 1; i < arr.length; i += 1) {
+		if (arr[i] > maxNumber) {
+			maxNumber = arr[i];
+		}
+	}
+	return maxNumber;
+};
+
 
   ```
 
