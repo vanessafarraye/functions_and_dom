@@ -33,7 +33,7 @@ var getRand = function (low, high) {
 var randArr = function (size) {
 	var arr = [];
 	for( var i = 0; i < size; i++) {
-	arr.push(Math.floor(Math.random() * 10 + 1));
+	arr.push(Math.floor(Math.random() * 100 + 1));
   	}
   return arr; 
   }
